@@ -60,13 +60,13 @@ This API is complementary to the package [`@stdlib/blas-base/gapx`][@stdlib/blas
 ## Usage
 
 ```javascript
-import gwapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gwapx@esm/index.mjs';
+import gwapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gwapx@v0.0.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gwapx@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gwapx@v0.0.0-esm/index.mjs';
 ```
 
 #### gwapx( N, alpha, x, strideX, w, strideW )
@@ -172,7 +172,7 @@ gwapx.ndarray( 3, 5.0, x, 1, x.length-3, w, 1, w.length-3 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gwapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gwapx@esm/index.mjs';
+import gwapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gwapx@v0.0.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
